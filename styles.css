@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+.input-group input[type="date"] {
+    width: auto; /* or any other width that fits your design */
+}
